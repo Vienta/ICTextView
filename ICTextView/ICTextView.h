@@ -170,7 +170,7 @@ typedef enum
 @property (nonatomic, readonly) NSRange rangeOfFoundString;
 
 // The total number of the matching text
-@property (nonatomic, assign) NSUInteger matchingCount;
+@property (nonatomic, assign) NSUInteger numberOfMatches;
 
 #pragma mark - Usage
 
